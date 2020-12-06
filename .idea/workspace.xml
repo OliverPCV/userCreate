@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03f4b352-8ad4-4888-9270-9dbc4de8e1bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.scss" afterDir="false" />
+    <list default="true" id="1294b993-26b7-4362-a27d-1d92518dbd02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,30 +18,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1jjBV3SqWCfrSBcoEXEgCl72Hqd" />
+  <component name="ProjectId" id="1kgTpBpLYqS3i9x8prN5l29VhqN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../basicWebEmit" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\PRG\basicWebEmit\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+    <property name="ts.external.directory.path" value="C:\PRG\basciWebObservable\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration name="Tests (basicWeb)" type="JavaScriptTestRunnerKarma">
+    <configuration name="Tests (basciWebObservable)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="E2E Tests (basicWeb)" type="JavaScriptTestRunnerProtractor">
+    <configuration name="E2E Tests (basciWebObservable)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
       <protractor-options value="" />
@@ -58,73 +70,47 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="03f4b352-8ad4-4888-9270-9dbc4de8e1bb" name="Default Changelist" comment="" />
-      <created>1604307640959</created>
+      <changelist id="1294b993-26b7-4362-a27d-1d92518dbd02" name="Default Changelist" comment="" />
+      <created>1606121414918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604307640959</updated>
-      <workItem from="1604307647268" duration="1811000" />
-      <workItem from="1604310023611" duration="1263000" />
-      <workItem from="1604753827585" duration="1550000" />
-      <workItem from="1604755909454" duration="1789000" />
-      <workItem from="1604757733284" duration="2141000" />
-      <workItem from="1604759986422" duration="1663000" />
-      <workItem from="1604762084717" duration="1727000" />
-      <workItem from="1604763958005" duration="1783000" />
-      <workItem from="1604765955115" duration="1307000" />
-      <workItem from="1604767773759" duration="1939000" />
-      <workItem from="1604771477787" duration="1905000" />
-      <workItem from="1604773703760" duration="1820000" />
-      <workItem from="1604775557831" duration="1790000" />
-      <workItem from="1604777380617" duration="1787000" />
-      <workItem from="1604779191453" duration="1794000" />
-      <workItem from="1604781009274" duration="836000" />
-      <workItem from="1604910609592" duration="1746000" />
-      <workItem from="1604912508332" duration="612000" />
-      <workItem from="1605882778253" duration="1831000" />
-      <workItem from="1605884642257" duration="1689000" />
-      <workItem from="1605890465725" duration="983000" />
-      <workItem from="1605892315724" duration="2129000" />
-      <workItem from="1605895436188" duration="599000" />
-      <workItem from="1605961781064" duration="1781000" />
-      <workItem from="1605963598861" duration="1101000" />
-      <workItem from="1605966490159" duration="1644000" />
-      <workItem from="1605968321382" duration="1816000" />
-      <workItem from="1605970173021" duration="1510000" />
-      <workItem from="1605972167861" duration="1784000" />
-      <workItem from="1605973987607" duration="1790000" />
-      <workItem from="1605975802583" duration="476000" />
-      <workItem from="1606062705882" duration="471000" />
-      <workItem from="1606121392015" duration="623000" />
-      <workItem from="1606123957319" duration="599000" />
-      <workItem from="1606125770659" duration="599000" />
-      <workItem from="1606205734799" duration="599000" />
-      <workItem from="1606659560918" duration="649000" />
-      <workItem from="1607269070073" duration="206000" />
-      <workItem from="1607269304709" duration="600000" />
-      <workItem from="1607271183345" duration="345000" />
+      <updated>1606121414918</updated>
+      <workItem from="1606121417000" duration="77000" />
+      <workItem from="1606121494250" duration="1778000" />
+      <workItem from="1606123958087" duration="1775000" />
+      <workItem from="1606125771561" duration="1082000" />
+      <workItem from="1606205734837" duration="659000" />
+      <workItem from="1606659560922" duration="661000" />
+      <workItem from="1606724940713" duration="1422000" />
+      <workItem from="1606726776351" duration="1408000" />
+      <workItem from="1607255565137" duration="1878000" />
+      <workItem from="1607257700281" duration="1792000" />
+      <workItem from="1607259548962" duration="1143000" />
+      <workItem from="1607261378119" duration="802000" />
+      <workItem from="1607267478572" duration="1796000" />
+      <workItem from="1607269304514" duration="1124000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
