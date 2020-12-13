@@ -36,9 +36,14 @@ export class UserserviceService {
 
   }
 
-  changeUser(newUsername: string) {
-    const user: IUsersEntity = {id: this.nextId, username: newUsername};
-    this.users.push(user);
-    return of(user);
+  changeUser(id: number, newUsername: string): Observable<IUsersEntity> {
+
+    for (const i of this.users) {
+      if (i.id === id) {
+        i.username = newUsername;
+        return of(i);
+      }
+    }
+    return of(null);
   }
 }

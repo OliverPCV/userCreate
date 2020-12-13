@@ -42,7 +42,7 @@ export class UserDetailComponent implements OnInit {
   }
 
   change() {
-    this.usersService.changeUser(this.user.username = this.username);
+    this.usersService.changeUser(this.user.id, this.user.username = this.username);
   }
 
 }
