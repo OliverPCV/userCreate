@@ -27,6 +27,7 @@ export class UserDetailComponent implements OnInit {
         .pipe(delay(500))
         .subscribe(
           u => {
+            console.log(u);
             this.user = u;
             if (u) {
               this.user = u;
