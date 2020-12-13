@@ -11,6 +11,7 @@ import {delay} from 'rxjs/operators';
 export class UserDetailComponent implements OnInit {
 
   user: IUsersEntity;
+  username = '';
 
   constructor(
     private readonly activatedRoute: ActivatedRoute,
@@ -30,7 +31,7 @@ export class UserDetailComponent implements OnInit {
             if (u) {
               this.user = u;
             } else {
-              this.router.navigateByUrl('/users');
+              this.router.navigateByUrl('/user');
 
             }
           },
@@ -38,6 +39,10 @@ export class UserDetailComponent implements OnInit {
             console.log(e);
           });
     });
+  }
+
+  change() {
+    this.usersService.changeUser(this.user.username = this.username);
   }
 
 }

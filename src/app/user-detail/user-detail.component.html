@@ -1,1 +1,13 @@
+<p>{{user?.id}}</p>
 <p>{{user?.username}}</p>
+
+<h1>change user form</h1>
+<form>
+
+  <div class="form-group">
+    <label >Username</label>
+    <input [(ngModel)]="username" type="name"  name="first" class="form-control"placeholder="Username">
+  </div>
+
+  <button type="submit" class="btn btn-primary" (click)="change()">Register</button>
+</form>

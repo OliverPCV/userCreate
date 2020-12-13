@@ -35,4 +35,10 @@ export class UserserviceService {
     return of(this.users.find(u => u.id === id));
 
   }
+
+  changeUser(newUsername: string) {
+    const user: IUsersEntity = {id: this.nextId, username: newUsername};
+    this.users.push(user);
+    return of(user);
+  }
 }
