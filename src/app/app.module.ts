@@ -7,13 +7,15 @@ import { UserComponent } from './user/user.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { UserCreateComponent } from './user-create/user-create.component';
 import {FormsModule} from '@angular/forms';
+import { ExcerptPipe } from './excerpt.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     UserDetailComponent,
-    UserCreateComponent
+    UserCreateComponent,
+    ExcerptPipe
   ],
   imports: [
     BrowserModule,
