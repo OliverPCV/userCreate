@@ -1,9 +1,16 @@
-<form>
+<form #form="ngForm">
 
   <div class="form-group">
     <label >Username</label>
-    <input [(ngModel)]="username" type="name"  name="first" class="form-control"placeholder="Username">
-  </div>
+    <input [(ngModel)]="username" type="name"  name="first" class="form-control"placeholder="Username"
+           required minlength="5" maxlength="30" #usernameEL="ngModel">
 
-  <button type="submit" class="btn btn-primary" (click)="create()">Register</button>
+  </div>
+  <div *ngIf="usernameEL.invalid && usernameEL.touched">
+    <span *ngIf="usernameEL.errors.required"> Username je povinný</span>
+    <span *ngIf="usernameEL.errors.minlength"> Minamální délka jsou {{usernameEL.errors.minlength.requiredLength}} znaky</span>
+    <span *ngIf="usernameEL.errors.manlength"> Maximální délka je {{usernameEL.errors.minlength.requiredLength}} znaků</span>
+
+  </div>
+  <button type="submit" class="btn btn-primary"(click)="create()" [disabled]="form.invalid">Register</button>
 </form>
